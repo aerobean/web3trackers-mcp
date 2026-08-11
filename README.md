@@ -22,7 +22,7 @@ The server is hosted at `https://www.web3trackers.com/api/mcp` and speaks HTTP J
 ### Claude Code
 
 ```bash
-claude mcp add web3trackers -- npx -y web3trackers-mcp
+claude mcp add web3trackers -- npx -y github:aerobean/web3trackers-mcp
 ```
 
 ### Claude Desktop / any client using `mcpServers` config
@@ -32,7 +32,7 @@ claude mcp add web3trackers -- npx -y web3trackers-mcp
   "mcpServers": {
     "web3trackers": {
       "command": "npx",
-      "args": ["-y", "web3trackers-mcp"]
+      "args": ["-y", "github:aerobean/web3trackers-mcp"]
     }
   }
 }
@@ -49,7 +49,7 @@ https://www.web3trackers.com/api/mcp
 ## Verify it works
 
 ```bash
-echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | npx -y web3trackers-mcp
+echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | npx -y github:aerobean/web3trackers-mcp
 ```
 
 You should get a JSON-RPC response listing four tools.
