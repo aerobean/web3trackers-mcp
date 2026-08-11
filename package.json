@@ -30,9 +30,9 @@
   "homepage": "https://www.web3trackers.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/web3trackers-mcp.git"
+    "url": "git+https://github.com/aerobean/web3trackers-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/OWNER/web3trackers-mcp/issues"
+    "url": "https://github.com/aerobean/web3trackers-mcp/issues"
   }
 }
