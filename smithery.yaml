@@ -1,0 +1,18 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      endpoint:
+        type: string
+        title: Endpoint
+        description: Override the hosted Web3 Trackers MCP endpoint.
+        default: https://www.web3trackers.com/api/mcp
+    required: []
+  commandFunction: |-
+    (config) => ({
+      command: 'node',
+      args: ['index.js'],
+      env: config.endpoint ? { WEB3TRACKERS_MCP_ENDPOINT: config.endpoint } : {}
+    })
+  exampleConfig: {}

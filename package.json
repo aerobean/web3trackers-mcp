@@ -1,0 +1,38 @@
+{
+  "name": "web3trackers-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for web3 and crypto marketing attribution: build UTM tracking URLs, estimate campaign ROI, compare web3 attribution tools, and look up DeFi marketing benchmarks. No API key required.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "web3trackers-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "web3",
+    "crypto",
+    "marketing",
+    "attribution",
+    "analytics",
+    "defi",
+    "utm"
+  ],
+  "homepage": "https://www.web3trackers.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/web3trackers-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OWNER/web3trackers-mcp/issues"
+  }
+}
